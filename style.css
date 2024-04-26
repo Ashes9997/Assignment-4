@@ -1,0 +1,10 @@
+.box{
+    background-color: gray;
+    min-height: auto;
+}
+.iamge{
+    /* background-image: ; */
+    height:auto;
+    max-width: 100%;
+    
+}
