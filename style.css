@@ -41,5 +41,11 @@ h1{
     margin: 0;
     padding: 0;
 }
-
+/* this is media quary for slider responsivness  */
+@media (min-width:786){
+    .slider{
+        min-height: 50vh;
+    }
+    
+}
 
