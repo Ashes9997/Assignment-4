@@ -35,5 +35,11 @@ h1{
         min-height: 30vh;
     }
 }
+/* this is class for  navbar styling  */
+.theme{
+    background-color: #788a7c;
+    margin: 0;
+    padding: 0;
+}
 
 
