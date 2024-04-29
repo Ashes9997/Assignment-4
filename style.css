@@ -1,6 +1,12 @@
 .box{
-    background-color: gray;
+    background-color:  #788a7c;
     min-height: auto;
+     color: white; 
+
+}
+.hColor{
+    color: #6ed198;
+    font-size: smaller;
 }
 .iamge{
     /* background-image: ; */
@@ -16,13 +22,14 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 h1{
-    font-size: 10rem;
+    font-size: 5rem;
 }
 .color-overlay{
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .2);
+    font-size: smaller;
   
 }
 @media(max-width:768px){
@@ -32,7 +39,12 @@ h1{
 }
 @media(max-width:576px){
     .masthead{
-        min-height: 30vh;
+        min-height: 40vh;
+    }
+}
+@media(max-width:576px){
+    .p{
+        font-size: 12px;
     }
 }
 /* this is class for  navbar styling  */
@@ -48,4 +60,35 @@ h1{
     }
     
 }
+/* class for slider caption styling  */
+.message{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
 
+}
+/* this section include classes for read more button  */
+.read-more-btn{
+    padding: 30px, 30px;
+    /* background-color: none; */
+    color: gray;
+    border: 2px solid black;
+    outline: none;
+    font-size: 20x;
+    width: 50vh;
+    height: 7vh;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.moreText{
+    display: none;
+}
+.text{
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.size{
+    width: 70%;
+    height: auto;
+}
