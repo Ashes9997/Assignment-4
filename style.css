@@ -1,3 +1,6 @@
+.body{
+    font-family: sans-serif;
+}
 .box{
     background-color:  #788a7c;
     min-height: auto;
@@ -6,7 +9,7 @@
 }
 .hColor{
     color: #6ed198;
-    font-size: smaller;
+    font-size: small;
 }
 .iamge{
     /* background-image: ; */
@@ -61,11 +64,11 @@ h1{
     
 }
 /* class for slider caption styling  */
-.message{
+/* .message{
     font-size: 4rem;
     font-family: 'Courier New', Courier, monospace;
 
-}
+} */
 /* this section include classes for read more button  */
 .read-more-btn{
     padding: 30px, 30px;
@@ -74,11 +77,17 @@ h1{
     border: 2px solid black;
     outline: none;
     font-size: 20x;
-    width: 50vh;
+    width: 60vh;
     height: 7vh;
     cursor: pointer;
     text-transform: capitalize;
 
+}
+@media(min-width:786){
+    .read-more-btn{
+        margin-right: 30px;
+        width: 30vh;
+    }
 }
 .moreText{
     display: none;
@@ -91,4 +100,7 @@ h1{
 .size{
     width: 70%;
     height: auto;
+}
+.heading{
+    color: ;
 }
